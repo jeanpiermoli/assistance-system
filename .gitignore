@@ -1,0 +1,83 @@
+# ==============================================================================
+# .gitignore para Proyecto de Asistencia con RFID (Python + ESP32)
+# ==============================================================================
+
+# Entornos virtuales de Python
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Bytecode y archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+
+# Archivos de distribución y empaquetado
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Base de datos local (evita subir datos privados o bases de prueba)
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+data/*.sqlite3
+!data/.gitkeep
+
+# Archivos generados y exportaciones
+data/exportes/*
+!data/exportes/.gitkeep
+*.xlsx
+*.csv
+
+# Documentación de exposición, borradores de notas y ofimática
+*.pdf
+*.docx
+*.pptx
+
+# Archivos de configuración de IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Archivos temporales del sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.tmp
+*.bak
+
+# Compilados de firmware / Arduino / ESP32
+*.hex
+*.bin
+*.elf
+*.o
+.arduino15/
+
+# Directorios residuales o temporales
+Proyecto_Registro_RFID/
